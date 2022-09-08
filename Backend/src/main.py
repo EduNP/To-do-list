@@ -9,7 +9,7 @@ CORS(app)
 @app.route("/")
 def index():
     result = {}
-    result['itens'] = ["Bala","chocolate"]
+    result['itens'] = ["Balass","Chocolate","Caramelo"]
     return json.dumps(result)
 
 app.run(debug=True, host='0.0.0.0', port=5000)
